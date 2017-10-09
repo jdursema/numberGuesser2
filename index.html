@@ -3,40 +3,49 @@
 <head>
 	<title>Number Guesser</title>
 	<link rel="stylesheet" type="text/css" href="NumberGuesser.css">
-	<link <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
 </head>
 
 <body>
 
 <header>
-<h1 name="title">Number</h1>
-<h2 name="title">Guesser</h2>
+	<h1 name="title">Number</h1>
+	<h2 name="title">Guesser</h2>
 </header>
 
-<section>
+<section id="main">
+<p>The number is in between</p>
+	<label>
+		<input type="number" maxlength="3" placeholder= "Minimum" id="minimum-input" class="minmaxinput">
+	</label>
+	<label>
+		<input type="text" maxlength="3" placeholder= "Maximum" id="maximum-input" class="minmaxinput"> 
+	</label>
+	<button id="enter-min-max" class="minmaxinput">Generate Number</button>
+
 <form>
-<label>
-<input type="text" maxlength="3" placeholder="Enter your guess" id="input">
-</label>
-<button id="guess">Guess</button>
-<button id="clear">Clear</button>
+	<label>
+		<input type="text" maxlength="3" placeholder="Enter your guess" id="input">
+	</label>
+	<button id="guess" disabled>Guess</button>
+	<button id="clear" disabled>Clear</button>
 </form>
 
 <p>Your last guess was</p>
 
-<h3 id="last-guess">25</h3>
+<h3 id="last-guess">--</h3>
 
-<p class="highlow">Hint will appear here.</p>
+<p class="highlow"></p>
 
 </section>
 
 <footer>
 
 <form>
-<label>
-	<button id="reset" disabled="true">Reset</button>
-</label>
+	<label>
+		<button id="reset" disabled= true>Reset</button>
+	</label>
 </form>
 
 </footer>

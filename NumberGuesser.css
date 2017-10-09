@@ -1,46 +1,67 @@
-* {font-family: Open Sans;
-font-size: 16pt;
-font-weight: lighter;}
+* {
+	font-family: Open Sans;
+	font-size: 16pt;
+	font-weight: lighter;
+}
 
-header{background: #404041;
-text-align: center;
-height: 80pt;
-width:100%;
-border: 0pt;}
+body{
+	margin: 0px;
+}
 
-h1{color: #ED458B;
-font-weight: bold;
-display: inline-block;
-font-size: 50px;
-padding: auto;
-position: relative;
-top: -25px;}
 
-h2{color: #e6e7e8;
-font-weight: lighter;
-display: inline-block;
-font-size: 50px;
-padding: 5px;
-position: relative;
-top: -25px;}
+header{
+	background: #404041;
+	text-align: center;
+	height: 80pt;
+	width:100%;
+	border: 0pt;
+}
 
-section{text-align: center;
-align-items: center;}
+h1{
+	color: #ED458B;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 55px;
+	padding: auto;
+	position: relative;
+	top: -40px;
+}
 
-input{display: block;
-text-align: left;
-margin: 40px auto 20px;
-width: 425px;
-height: 35px}
+h2{
+	color: #e6e7e8;
+	font-weight: lighter;
+	display: inline-block;
+	font-size: 55px;
+	padding: 5px;
+	position: relative;
+	top: -40px;
+}
 
-h3{color: #EB008B;
-font-size: 175px;
-margin: 0px}
+section{
+	text-align: center;
+}
 
-p{padding:0px;
-	margin: 15px auto 5px;}
+input{
+	display: block;
+	text-align: left;
+	margin: 40px auto 20px;
+	width: 425px;
+	height: 35px
+}
 
-button{background-color: #929497;
+h3{
+	color: #EB008B;
+	font-size: 175px;
+	margin: 0px;
+}
+
+p{
+	padding:0px;
+	margin: 15px auto 5px;
+}
+
+button{
+	background-color: #929497;
 	color:#FFFFFF;
 	border: 0px;
 	border-radius: 20px;
@@ -48,17 +69,35 @@ button{background-color: #929497;
 	margin: 20px 10px;
 }
 
-button:hover{ color: #FFFFFF;
-background-color: #EB008B}
+button:hover{
+	color: #FFFFFF;
+	background-color: #EB008B;
+}
 
 button:disabled{
 	color: #FFFFFF;
 	background-color:#D0D2D3;
 }
 
-footer{text-align: center;}
+
+input.minmaxinput{
+	display: inline-block;
+	width: 95px;
+	margin: 2px;
+}
+
+
+footer{
+	text-align: center;
+}
 
 footer button{
 	width: 425px;
-	margin: 40px;
+	position: relative;
+	left: 500px;
+}
+
+#reset{
+	margin: auto;
+	margin-left: -1000px;
 }
